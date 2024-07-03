@@ -1,0 +1,25 @@
+.table_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.align {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  th, td {
+    width: 1%;
+    text-align: center;
+
+  }
+
+  thead .color-1 {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ebc2c1;
+    padding: .5rem;
+}
+  
+  

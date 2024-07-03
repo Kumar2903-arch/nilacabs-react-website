@@ -1,0 +1,41 @@
+
+
+.fsize {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: coral;
+    text-align: center;
+    /* color: #f4b41a; */
+}  
+
+.fsize_1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: cornflowerblue;
+    /* padding-right: 30rem; */
+    /* color: #3097bf; */
+}  
+
+.img_width {
+    width: 100%;
+}
+
+.box {
+    border: none;
+}
+.btn_color {
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: coral;
+    font-weight: bold;
+    border: 1px solid coral;
+    border-radius: .7rem;
+}
+
+.btn_color:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+}

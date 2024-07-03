@@ -1,0 +1,19 @@
+.wrapper {
+    padding: 2rem;
+    background-color: #f0d9d8;
+    /* width: 100%; */
+    height: 100vh;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.wrapper h4 {
+    color: coral;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dd_link {
+    text-decoration: none;
+    color: inherit;
+  }

@@ -1,0 +1,29 @@
+.align {
+    width: 70%;
+    margin-top: 2rem;
+    /* background-color: #ebc2c1; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th, td {
+    width: 1%;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+  }
+
+
+thead .color-1 {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ebc2c1;
+    padding: .5rem;
+}
+  
+thead .color-2 {
+    font-weight: bold;
+    font-size: 17px;
+    padding: .5rem;
+}
+
+
+

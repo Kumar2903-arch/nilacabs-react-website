@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Menu Page Design */
+  
+  #navbarScroll :hover {
+    color:coral;
+    /* color: #143d59; */
+    /* color: #3097bf; */
+  }
+  
+  .bg_color {
+    /* background-color: #f0d9d8; */
+  }
+
+
+
+  
+  
+  
+  

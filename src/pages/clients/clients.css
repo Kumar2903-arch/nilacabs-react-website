@@ -1,0 +1,25 @@
+.client_page {
+    padding: 2rem;
+    width: 100%;
+    
+}
+
+.img_size {
+    width: 20%;
+    height: 20%;   
+}
+
+.heading {
+    text-align: center;
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
