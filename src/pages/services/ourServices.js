@@ -1,7 +1,7 @@
 import React from "react";
 import "./ourServices.css";
-import EmpCar from "../images/black-white-luxury-car.png";
-import CabCar from "../images/download.png";
+import EmpCar from "../images/Emp-Car.png";
+import CabCar from "../images/cab.png";
 import TourCab from "../images/city-tour-bus.jpg";
 import OutStationCab from "../images/suv-car.jpg";
 import { Link } from "react-router-dom";
