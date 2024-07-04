@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nilacabs-react-website/static/css/main.7bc4aaff.css",
+    "main.js": "/nilacabs-react-website/static/js/main.bfb24aa3.js",
+    "static/media/Zillion.png": "/nilacabs-react-website/static/media/Zillion.5a4fe177d4b05ea36911.png",
+    "static/media/Eicher-bus.png": "/nilacabs-react-website/static/media/Eicher-bus.7e14a5ba31002792573d.png",
+    "static/media/swift_dzire.png": "/nilacabs-react-website/static/media/swift_dzire.dd030f7c7184ef763620.png",
+    "static/media/enquiry-bg1.jpg": "/nilacabs-react-website/static/media/enquiry-bg1.88326d8d5d658583faf2.jpg",
+    "static/media/OFFICE LOGO-Recreate_withoutbackground.png": "/nilacabs-react-website/static/media/OFFICE LOGO-Recreate_withoutbackground.9b34a4b5b42986312c64.png",
+    "static/media/Emp-Car.png": "/nilacabs-react-website/static/media/Emp-Car.bc073693466ea2d1768d.png",
+    "static/media/vee_healthtek.png": "/nilacabs-react-website/static/media/vee_healthtek.6093089c960de411afd2.png",
+    "static/media/Tempo-traveller.png": "/nilacabs-react-website/static/media/Tempo-traveller.5e650cb8176eb81e814f.png",
+    "static/media/bus1.avif": "/nilacabs-react-website/static/media/bus1.bd49524ebefb25cba70a.avif",
+    "static/media/Kissflow.png": "/nilacabs-react-website/static/media/Kissflow.ea1d4c162fadf531ac22.png",
+    "static/media/cab.png": "/nilacabs-react-website/static/media/cab.88bbb801f88264e9dfac.png",
+    "static/media/car.jpg": "/nilacabs-react-website/static/media/car.a56225a4bf3fab5c2d49.jpg",
+    "static/media/suv-car.jpg": "/nilacabs-react-website/static/media/suv-car.bc1890bd3d09c43f269e.jpg",
+    "static/media/TATA_Consultancy_Service.png": "/nilacabs-react-website/static/media/TATA_Consultancy_Service.e701a525d54ff9b8b1b2.png",
+    "static/media/gmail.jpg": "/nilacabs-react-website/static/media/gmail.6913181d9efa75eb2a34.jpg",
+    "static/media/cars.jpeg": "/nilacabs-react-website/static/media/cars.5105d05d3ddb4207a122.jpeg",
+    "static/media/city-tour-bus.jpg": "/nilacabs-react-website/static/media/city-tour-bus.89be489e32ec6e60e07a.jpg",
+    "index.html": "/nilacabs-react-website/index.html",
+    "main.7bc4aaff.css.map": "/nilacabs-react-website/static/css/main.7bc4aaff.css.map",
+    "main.bfb24aa3.js.map": "/nilacabs-react-website/static/js/main.bfb24aa3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bc4aaff.css",
+    "static/js/main.bfb24aa3.js"
+  ]
+}
