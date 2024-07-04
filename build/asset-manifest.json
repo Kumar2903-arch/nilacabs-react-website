@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/NilaCabs_Website/static/css/main.6d6cfdd2.css",
+    "main.js": "/NilaCabs_Website/static/js/main.1ae90180.js",
+    "static/media/Zillion.png": "/NilaCabs_Website/static/media/Zillion.5a4fe177d4b05ea36911.png",
+    "static/media/Eicher-bus.png": "/NilaCabs_Website/static/media/Eicher-bus.7e14a5ba31002792573d.png",
+    "static/media/swift_dzire.png": "/NilaCabs_Website/static/media/swift_dzire.dd030f7c7184ef763620.png",
+    "static/media/enquiry-bg1.jpg": "/NilaCabs_Website/static/media/enquiry-bg1.88326d8d5d658583faf2.jpg",
+    "static/media/OFFICE LOGO-Recreate_withoutbackground.png": "/NilaCabs_Website/static/media/OFFICE LOGO-Recreate_withoutbackground.9b34a4b5b42986312c64.png",
+    "static/media/Emp-Car.png": "/NilaCabs_Website/static/media/Emp-Car.bc073693466ea2d1768d.png",
+    "static/media/vee_healthtek.png": "/NilaCabs_Website/static/media/vee_healthtek.6093089c960de411afd2.png",
+    "static/media/Tempo-traveller.png": "/NilaCabs_Website/static/media/Tempo-traveller.5e650cb8176eb81e814f.png",
+    "static/media/bus1.avif": "/NilaCabs_Website/static/media/bus1.bd49524ebefb25cba70a.avif",
+    "static/media/Kissflow.png": "/NilaCabs_Website/static/media/Kissflow.ea1d4c162fadf531ac22.png",
+    "static/media/cab.png": "/NilaCabs_Website/static/media/cab.88bbb801f88264e9dfac.png",
+    "static/media/car.jpg": "/NilaCabs_Website/static/media/car.a56225a4bf3fab5c2d49.jpg",
+    "static/media/suv-car.jpg": "/NilaCabs_Website/static/media/suv-car.bc1890bd3d09c43f269e.jpg",
+    "static/media/TATA_Consultancy_Service.png": "/NilaCabs_Website/static/media/TATA_Consultancy_Service.e701a525d54ff9b8b1b2.png",
+    "static/media/gmail.jpg": "/NilaCabs_Website/static/media/gmail.6913181d9efa75eb2a34.jpg",
+    "static/media/cars.jpeg": "/NilaCabs_Website/static/media/cars.5105d05d3ddb4207a122.jpeg",
+    "static/media/city-tour-bus.jpg": "/NilaCabs_Website/static/media/city-tour-bus.89be489e32ec6e60e07a.jpg",
+    "index.html": "/NilaCabs_Website/index.html",
+    "main.6d6cfdd2.css.map": "/NilaCabs_Website/static/css/main.6d6cfdd2.css.map",
+    "main.1ae90180.js.map": "/NilaCabs_Website/static/js/main.1ae90180.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d6cfdd2.css",
+    "static/js/main.1ae90180.js"
+  ]
+}
