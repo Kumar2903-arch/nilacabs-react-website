@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nilacabs-react-website/static/css/main.7bc4aaff.css",
+    "main.css": "/nilacabs-react-website/static/css/main.06291f0e.css",
     "main.js": "/nilacabs-react-website/static/js/main.bfb24aa3.js",
     "static/media/Zillion.png": "/nilacabs-react-website/static/media/Zillion.5a4fe177d4b05ea36911.png",
     "static/media/Eicher-bus.png": "/nilacabs-react-website/static/media/Eicher-bus.7e14a5ba31002792573d.png",
@@ -20,11 +20,11 @@
     "static/media/cars.jpeg": "/nilacabs-react-website/static/media/cars.5105d05d3ddb4207a122.jpeg",
     "static/media/city-tour-bus.jpg": "/nilacabs-react-website/static/media/city-tour-bus.89be489e32ec6e60e07a.jpg",
     "index.html": "/nilacabs-react-website/index.html",
-    "main.7bc4aaff.css.map": "/nilacabs-react-website/static/css/main.7bc4aaff.css.map",
+    "main.06291f0e.css.map": "/nilacabs-react-website/static/css/main.06291f0e.css.map",
     "main.bfb24aa3.js.map": "/nilacabs-react-website/static/js/main.bfb24aa3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc4aaff.css",
+    "static/css/main.06291f0e.css",
     "static/js/main.bfb24aa3.js"
   ]
 }
