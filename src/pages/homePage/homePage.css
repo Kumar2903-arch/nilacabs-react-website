@@ -13,8 +13,10 @@
     /* color: #3097bf; */
   }
   
-  .bg_color {
+  #bg_color {
     /* background-color: #f0d9d8; */
+    justify-content: center;
+    background-color: rgb(160, 186, 235);
   }
 
 

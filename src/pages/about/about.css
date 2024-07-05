@@ -18,7 +18,7 @@
 }  
 
 .img_width {
-    width: 100%;
+    width: 50%;
 }
 
 .box {
@@ -38,4 +38,18 @@
     cursor: pointer;
     background-color: cornflowerblue;
     border: 1px solid cornflowerblue;
+}
+
+
+/* Mobile Query */
+
+
+@media screen and (max-width: 767.98px) {
+     .fsize{
+        font-size: 1.7rem;
+     }
+
+     .fsize_1 {
+        font-size: 1.5rem;
+    } 
 }

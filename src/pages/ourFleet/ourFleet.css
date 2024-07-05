@@ -34,3 +34,23 @@
     font-size: 30px;
     font-weight: bold;  
 }
+
+
+/* Mobile Media Query */
+
+@media screen and (max-width: 767.98px) {
+    .bg-img h1 {
+        font-size: 1.7rem;
+    }
+    .curve_box {
+        width: 100%;
+        /* opacity: 0.5; */
+    }
+    .content_down {
+        left: 10rem;
+        top: -.5rem;
+    }
+    .content_down h3 {
+        font-size: 1.1rem;
+    }
+}

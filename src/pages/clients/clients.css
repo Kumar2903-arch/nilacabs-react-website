@@ -23,3 +23,20 @@
     align-items: center;
     gap: 2rem;
 }
+
+
+/* Mobile Media Query */
+
+@media screen and (max-width: 767.98px) {
+    .heading {
+        font-size: 1.7rem;
+    }
+    .img_size {
+        width: 40%;
+        height: 40%;   
+    }
+    .imgs {
+        flex-wrap: wrap; 
+        padding-top: 1rem;
+    }
+}

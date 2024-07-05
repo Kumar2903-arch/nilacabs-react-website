@@ -14,7 +14,7 @@ import './homePage.css';
 
 function App() {
   return (<>
-      <Navbar expand="lg" className="bg_color fs-5 p-2">
+      <Navbar expand="lg" className="fs-5 p-2" id='bg_color'>
         <Container className="gap-5 fw-bold">
           <Navbar.Brand>
             <Image src={Logo} width={140} height={100} />

@@ -2,7 +2,7 @@
     text-align: center;
     color: #fff;
     background: #1F365C;
-    padding: 15px;
+    padding: 12px;
     width: 96%;
     margin: 0 auto;
     text-transform: uppercase;
@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-wrap: wrap; */
     gap: 1rem;
 }
 
@@ -74,4 +75,48 @@
 .bold {
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+
+
+/* Mobile Media Query */
+
+@media screen and (max-width: 767.98px) {
+    /* .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    } */
+    .contact_page h1  {
+        font-size: 1.7rem;
+    }
+    .sec-head{
+       font-size: 1.3rem;
+    }
+    #form_submit {
+        width: 60%;
+        padding: 8px;
+    }
+    .email {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .email h5 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .bold {
+        font-size: 1.2rem;
+    }
+    .gmail_logo {
+        width: 10%;
+        height: 10%;
+    }
+    .phone_logo{
+        width: 15%;
+        height: 15%;
+        border-radius: 50%;
+        border: 1px solid whitesmoke;
+    }
 }
