@@ -57,13 +57,13 @@ export default function Contact() {
                   ></textarea>
                 </div>
               </div>
-              <a
+              {/* <a
                 id="form_submit"
                 onclick="contact_submit()"
                 className="submit-btn"
-              >
+              > */}
                 send message
-              </a>
+              {/* </a> */}
               <div className="submit-btn-top col-md-12"></div>
             </div>
             <div className="form-row thankyou-message">
