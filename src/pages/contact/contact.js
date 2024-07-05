@@ -62,7 +62,7 @@ export default function Contact() {
                 onclick="contact_submit()"
                 className="submit-btn"
               > */}
-                send message
+                <button id="form_submit">send message </button>
               {/* </a> */}
               <div className="submit-btn-top col-md-12"></div>
             </div>
