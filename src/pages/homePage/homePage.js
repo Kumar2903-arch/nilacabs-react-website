@@ -10,6 +10,7 @@ import Clients from '../clients/clients';
 import Contact from '../contact/contact';
 import Logo from '../images/OFFICE LOGO-Recreate_withoutbackground.png'; // Adjust the import path for your logo
 import { Link } from 'react-router-dom';
+import './homePage.css';
 
 function App() {
   return (<>

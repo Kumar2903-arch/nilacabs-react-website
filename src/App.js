@@ -20,26 +20,3 @@ function App() {
 }
 
 export default App;
-
-//  <BrowserRouter>
-//   <Routes>
-//     <Route path="/" element={<HomePage />} />
-//     <Route path="/slideimage" element={<SlideImage />} />
-//     <Route path="/about" element={<MenuAboutUs />}>
-//       <Route path="/about/termsandconditions" element={<TermsAndCondition />} />
-//     </Route>
-//     <Route path="/services" element={<OurServices />} />
-//     <Route
-//       path="/services/corporatecabservices"
-//       element={<CorporateCabServices />}
-//     />
-//     <Route
-//       path="/services/outstationcabservices"
-//       element={<OutStationCabServices />}
-//     />
-//     <Route path="/ourfleet" element={<OurFleet />} />
-//     <Route path="/animatedcounter" element={<AnimatedCounter />} />
-//     <Route path="/clients" element={<Clients />} />
-//     <Route path="/contact" element={<Contact />} />
-//   </Routes>
-// </BrowserRouter>;
