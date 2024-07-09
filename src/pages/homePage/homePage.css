@@ -7,12 +7,41 @@
   
   /* Menu Page Design */
   
-  #navbarScroll :hover {
+  .navbarScroll:hover {
     color:coral;
-    /* color: #143d59; */
-    /* color: #3097bf; */
+    transition: all ease-in-out 250ms;
+    text-decoration: underline;
+  }
+
+  #navbarScrollingDropdown:hover {
+    color:coral;
+    transition: all ease-in-out 250ms;
+    text-decoration: underline;
   }
   
+  /* .navbarBorder {
+    position: relative;
+    display: inline-block;
+  }
+  .navbarScroll::before{
+    content:'';
+    display: block;
+    height: 5px;
+    background-color: #DB3EB1;
+    
+    position: absolute;
+    top: 0;
+    width: 0%;
+    text-decoration: underline;
+    transition: all ease-in-out 250ms;
+  }
+  
+  .navbarScroll:hover::before{
+    width:100%;
+  }
+ */
+
+
   #bg_color {
     /* background-color: #f0d9d8; */
     justify-content: center;

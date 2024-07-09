@@ -46,6 +46,7 @@
     flex-wrap: wrap;
 }
 
+
 .card-body .img-size-1 {
     width: 10rem;
     height: 7rem;
@@ -86,8 +87,6 @@
     font-weight: 800;
     color: coral;
 }
-
-
 
 @media screen and (max-width: 767.98px) {
     .inc-font {
