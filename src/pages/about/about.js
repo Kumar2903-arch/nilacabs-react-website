@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import { Image } from "react-bootstrap";
 import CardsImg from "../images/cars.jpeg";
 import './about.css';
@@ -33,7 +32,7 @@ export default function MenuAboutUs() {
             cities soon.Nila Cabs team has close to 30+ professionals and 100+
             channel partners to manages the Business Services.
           </Card.Text>
-          <Button className="btn_color">Read More</Button>
+          <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
         </Card.Body>
       </Card>
     </Container>

@@ -4,7 +4,8 @@ import Image from 'react-bootstrap/Image';
 import SlideImage from '../slideImage/imageSlide';
 import MenuAboutUs from '../about/about';
 import AnimatedCounter from '../animatedCounter/animatedCounter';
-import OurServices from '../services/ourServices';
+// import OurServices from '../services/ourServices';
+import OurServicesOne from '../services/ourServicesOne';
 import OurFleet from '../ourFleet/ourFleet';
 import Clients from '../clients/clients';
 import Contact from '../contact/contact';
@@ -24,19 +25,19 @@ function App() {
           <Navbar.Collapse className='navbarBorder'>
             <Nav className="me-auto my-2 my-lg-0 gap-4" style={{ maxHeight: '100px' }} navbarScroll>
               <Nav.Link className="navbarScroll">Home</Nav.Link>
-              <NavDropdown title="About Us" id="navbarScrollingDropdown" className="navbarScroll">
+              <NavDropdown title="About Us" id="navbarScrollingDropdown" className="navbarScroll" href="#about">
                 {/* <NavDropdown.Item>Our Team</NavDropdown.Item>
                 <NavDropdown.Item>Privacy Policy</NavDropdown.Item> */}
                 <NavDropdown.Item><Link to='/about/termsandconditions' className='dd_link'>Terms & Conditions</Link></NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link className="navbarScroll">Services</Nav.Link> 
-              <Nav.Link className="navbarScroll">Clients</Nav.Link>
-              <Nav.Link className="navbarScroll">Contact Us</Nav.Link>
-              <Nav.Link className="navbarScroll">Gallery</Nav.Link>
-              {/* <NavDropdown title="Gallery" id="navbarScrollingDropdown">
-                <NavDropdown.Item>Photo Gallery</NavDropdown.Item>
-                <NavDropdown.Item>Video Gallery</NavDropdown.Item>
-              </NavDropdown> */}
+              <Nav.Link className="navbarScroll" href='#OurServiceOne'>Services</Nav.Link> 
+              <Nav.Link className="navbarScroll" href='#client'>Clients</Nav.Link>
+              <Nav.Link className="navbarScroll" href='#contact'>Contact Us</Nav.Link>
+              {/* <Nav.Link className="navbarScroll">Gallery</Nav.Link> */}
+              <NavDropdown title="Gallery" id="navbarScrollingDropdown">
+                <NavDropdown.Item><Link to="gallery/photogallery" className='img_link'>Photo Gallery</Link></NavDropdown.Item>
+                {/* <NavDropdown.Item>Video Gallery</NavDropdown.Item> */}
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
           {/* <Form className="d-flex">
@@ -48,7 +49,8 @@ function App() {
       <SlideImage />
       <MenuAboutUs />
       <AnimatedCounter />
-      <OurServices />
+      {/* <OurServices /> */}
+      <OurServicesOne/>
       <OurFleet />
       <Clients />
       <Contact />
