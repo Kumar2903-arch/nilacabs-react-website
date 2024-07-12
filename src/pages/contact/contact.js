@@ -66,7 +66,7 @@ export default function Contact() {
               > */}
                 <button id="form_submit">send message </button>
                 {/* </a> */}
-                <div className="submit-btn-top col-md-12"></div>
+                {/* <div className="submit-btn-top col-md-12"></div> */}
               </div>
               <div className="form-row thankyou-message">
                 <span id="thank_you"></span>
@@ -92,7 +92,7 @@ export default function Contact() {
           {/* <img src={Phone} alt="" className="phone_logo" /> */}
           <FaPhoneAlt className="phone_logo"  />
 
-          <p className="email_id">044-48657099 / 9846758442</p>
+          <p className="email_id">9941497009 / 9846758442</p>
         </div>
         <div className="social_media">
           <h4>Social Media</h4>

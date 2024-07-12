@@ -1,73 +1,62 @@
-// import Table from 'react-bootstrap/Table';
+import React from 'react';
 import './outStation.css';
-import { Container } from 'react-bootstrap';
 
 export default function OutStationCabServicesTable() {
   return (
-    <Container className='table_page'>
-    <table striped="columns" className='align'>
-      <thead>
-        <tr>
-            <th colSpan={9} className='color-1'>Outstation Rent Trip</th>
-        </tr>
-        <tr>
-          <th className='color-2'>#</th>
-          <th className='color-2'>Vehicle Type</th>
-          <th>
-         <th colSpan={2} className='color-2'>Per Kilometre Charges</th> 
-         <tr className='color-2'>
-            <th className='color-2'>AC</th>
-            <th className='color-2'>Non-AC</th>
-         </tr>
-         </th>
-         <th className='color-2'>Driver Betta</th>
-        </tr>
-      </thead>
-      {/* Tbody */}
-      <tbody>
-        {/* row - 1 */}
-       <tr>
-        <td>1</td>
-        <td>SEDAN</td>
-        <td>
+    <section className="out_table_page">
+      <table className="out_align">
+        <thead>
+          <tr>
+            <th colSpan={6} className="color-1">
+              Outstation Rent Trip
+            </th>
+          </tr>
+          <tr className='color-2'>
+            <th rowSpan={2}>#</th>
+            <th rowSpan={2}>Vehicle Type</th>
+            <th colSpan={2}>Per Kilometre Charges</th>
+            <th rowSpan={2}>Driver Beta</th>
+            <th rowSpan={2}>Extra Charges</th>
+          </tr>
+          <tr className='color-2'>
+            <th>AC</th>
+            <th>Non-AC</th>
+          </tr>
+        </thead>
+        <tbody>
+          {/* row - 1 */}
+          <tr>
+            <td>1</td>
+            <td>SEDAN</td>
             <td>16</td>
             <td>NA</td>
-        </td>
-        <td rowSpan={4}>900</td>
-       </tr>
+            <td rowSpan={4}>900</td>
+            <td rowSpan={4}>Toll Charges</td>
+          </tr>
 
-       {/* row -2  */}
-       <tr>
-       <td>2</td>
-        <td>SUV</td>
-        <td>
-            <td>20</td>
+          {/* row - 2 */}
+          <tr>
+            <td>2</td>
+            <td>SUV</td>
+            <td>22</td>
             <td>NA</td>
-        </td>
-       </tr>
+          </tr>
 
-        {/* row -3  */}
-        <tr>
-        <td>3</td>
-        <td>INNOVA CRYSTA</td>
-        <td>
+          {/* row - 3 */}
+          <tr>
+            <td>3</td>
+            <td>INNOVA CRYSTA</td>
             <td>24</td>
             <td>NA</td>
-        </td>
-       </tr>
-
-        {/* row -4  */}
-        <tr>
-       <td>4</td>
-        <td>TEMPO TRAVELLER</td>
-        <td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>TT</td>
             <td>26</td>
             <td>NA</td>
-        </td>
-       </tr>
-      </tbody>
-    </table>
-    </Container>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   );
 }
-

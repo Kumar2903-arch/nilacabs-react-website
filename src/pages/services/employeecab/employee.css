@@ -1,15 +1,15 @@
-.out_table_page {
+  .emp_table_page {
     margin: 20px;
   }
   
-  .out_align {
+  .emp_align {
     border-collapse: collapse;
-    width: 60%;
+    width: 85%;
     margin: auto;
     margin-top: 8rem;
   }
   
-  .out_align th, .out_align td {
+  .emp_align th, .emp_align td {
     border: 1px solid #000;
     padding: 8px;
     text-align: center;

@@ -1,29 +1,28 @@
-.table_page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.corp_table_page {
+  margin: 20px;
 }
 
-.align {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.corp_align {
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+  margin-top: 8rem;
 }
 
-  th, td {
-    width: 1%;
-    text-align: center;
-
-  }
-
-  thead .color-1 {
-    font-weight: bold;
-    font-size: 20px;
-    background-color: #ebc2c1;
-    padding: .5rem;
+.corp_align th, .corp_align td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
 }
-  
-  /*Mobile Media Query  */
-@media screen and (max-width: 767.98px) {
-  
-  
+
+.color-1 {
+  background-color: #ee53ad;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.color-2{
+  background-color: #c8d7e6;
+  text-transform: uppercase;
 }

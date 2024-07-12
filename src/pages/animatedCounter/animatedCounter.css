@@ -17,9 +17,11 @@
 }
 
 .counters {
-	background-color: rgb(148, 178, 235);
+	/* background-color: rgb(148, 178, 235); */
+	background-color: #408EC6;
 	color: #fff;
-	padding: 10px 20px;
+	padding: 1rem 2rem;
+	margin-top: 2rem;
 }
 
 .counters .counter_container {

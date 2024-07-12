@@ -4,14 +4,15 @@
   box-sizing: border-box;
 }
 
-.bg_color {
-  /* background-color: #f0d9d8; */
-  background-color: rgb(148, 178, 235);
+#bg_color {
+  background-color: #408EC6;
+  /* background-color:  #CADCFC; */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 999;
 }
+
 
 

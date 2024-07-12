@@ -4,15 +4,15 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     font-weight: 800;
-    color: coral;
+    /* color: #1E2761; */
     text-align: center;
-    /* color: #f4b41a; */
+    color: coral;
 }  
 
 .fsize_1 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: cornflowerblue;
+    color: #408EC6;
     /* padding-right: 30rem; */
     /* color: #3097bf; */
 }  
@@ -24,21 +24,6 @@
 .box {
     border: none;
 }
-/* .btn_color {
-    padding: .5rem 2rem;
-    font-size: 1rem;
-    background-color: transparent;
-    color: coral;
-    font-weight: bold;
-    border: 1px solid coral;
-    border-radius: .7rem;
-}
-
-.btn_color:hover {
-    cursor: pointer;
-    background-color: cornflowerblue;
-    border: 1px solid cornflowerblue;
-} */
 
 
 /* New Button CSS Styles */
@@ -57,7 +42,7 @@
   }
   .btn-12 span {
     background: rgb(0,172,238);
-  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
     display: block;
     position: absolute;
     width: 130px;

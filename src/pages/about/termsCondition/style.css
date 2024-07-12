@@ -7,13 +7,13 @@
 }
 
 .wrapper h4 {
+    /* color: #1E2761; */
     color: coral;
     padding-bottom: 2rem;
     text-align: center;
     font-weight: bold;
 }
 
-.dd_link {
-    text-decoration: none;
-    color: inherit;
-  }
+
+
+  

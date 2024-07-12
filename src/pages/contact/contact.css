@@ -7,7 +7,8 @@
 #form_submit {
     text-align: center;
     color: #fff;
-    background: #1F365C;
+    /* background: #1F365C; */
+    background: #408EC6;
     padding: 12px;
     width: 96%;
     margin: 0 auto;
@@ -16,7 +17,7 @@
     border-radius: 5px;
 }
 .sec-head{
-    color: cornflowerblue;
+    color: #408EC6;
     font-weight: bold;
 }
 .contact_page{
@@ -32,6 +33,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     font-weight: 800;
+    /* color: #1E2761; */
     color: coral;
 }
 
@@ -59,6 +61,8 @@
 
 
 .footer {
+    /* background-color:  #e7717d; */
+    /* background-image: linear-gradient(to right,#2c3531,#116466); */
     background-color: black;
     color: whitesmoke;
     border: 1px solid;
