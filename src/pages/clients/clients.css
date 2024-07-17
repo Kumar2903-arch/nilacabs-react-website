@@ -37,6 +37,5 @@
     }
     .imgs {
         flex-wrap: wrap; 
-        padding-top: 1rem;
     }
 }

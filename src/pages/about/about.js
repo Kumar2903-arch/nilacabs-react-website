@@ -2,14 +2,15 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import { Image } from "react-bootstrap";
-import CardsImg from "../images/cars.jpeg";
+import CarsImg from "../images/employees.JPG";
+// import { Link } from "react-router-dom";
 import './about.css';
 
 export default function MenuAboutUs() {
   return (
     <Container id="about" className="container-fluid">
       <Card className="d-flex flex-row mt-3 justify-content-center align-items-center box flex-wrap" id="align_box">
-        <Image src={CardsImg} alt="about_us_car_image" className="img_width"/>
+        <Image src={CarsImg} alt="about_us_car_image" className="img_width"/>
         <Card.Body className="d-flex justify-content-center flex-column align-items-center flex-wrap">
             <Card.Body className="d-flex flex-column justify-content-start align-items-start flex-wrap">
             <Card.Text className="fsize">ABOUT US</Card.Text>
@@ -17,7 +18,8 @@ export default function MenuAboutUs() {
             <Card.Body className="d-flex flex-column justify-content-start align-items-start flex-wrap">
             <Card.Text className="fsize_1">Corporate Cab Services</Card.Text>
             </Card.Body>
-          <Card.Text className="ms-5 fs-5 fs-md-2" id="fsize_2">
+            <div id="fsize_2">
+          <p className="ms-5 fs-5 fs-md-2">
             Nila cabs established in the year 2009. The main objective of the
             company is to take the pain away from commuters. Initially we
             started with ETS (Employee transport services).We expertise of
@@ -31,8 +33,11 @@ export default function MenuAboutUs() {
             Chennai, Coimbatore, Tiruchirappalli and plans to expand to various
             cities soon.Nila Cabs team has close to 30+ professionals and 100+
             channel partners to manages the Business Services.
-          </Card.Text>
-          <button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+          </p>
+          </div>
+          {/* <Link to='about/aboutPage'> */}
+          <button class="custom-btn btn-10"><span>Click!</span><span>Read More</span></button>
+          {/* </Link> */}
         </Card.Body>
       </Card>
     </Container>

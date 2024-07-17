@@ -1,16 +1,25 @@
-import React from "react";
+import React, {useState} from "react";
 import Gmail from "../images/Gmail.png";
-import Phone from "../images/phone.png";
 import { FaXTwitter} from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt} from "react-icons/fa";
+import Popup from "./popup";
 import "./contact.css";
 
 export default function Contact() {
+  const [isPopupVisible, setPopupVisible] = useState(false);
+
+  const showPopup = () => {
+    setPopupVisible(true);
+  };
+
+  const closePopup = () => {
+    setPopupVisible(false);
+  };
   return (
     <>
       <div className="contact_page" id="contact">
-        <h1>Contact Us</h1>
+        <h1>CONTACT US</h1>
         <div className="col-md-6 pe-md-5 submit_form">
           <div className="left-form-wrap">
             <h2 className="sec-head animation-element slide-top in-view">
@@ -64,13 +73,14 @@ export default function Contact() {
                 onclick="contact_submit()"
                 className="submit-btn"
               > */}
-                <button id="form_submit">send message </button>
+                <button onClick={showPopup} id="form_submit">send message</button>
+                {isPopupVisible && <Popup message="Data Storage process is going on." closePopup={closePopup} />}
                 {/* </a> */}
                 {/* <div className="submit-btn-top col-md-12"></div> */}
               </div>
-              <div className="form-row thankyou-message">
+              {/* <div className="form-row thankyou-message">
                 <span id="thank_you"></span>
-              </div>
+              </div> */}
             </form>
           </div>
         </div>

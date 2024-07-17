@@ -1,4 +1,5 @@
 import './style.css';
+import { Link } from 'react-router-dom';
 
 export default function TermsAndCondition() {
   return (
@@ -25,6 +26,11 @@ export default function TermsAndCondition() {
           package will be automatically charged to the next packages (For e.g.,
           more than 6 hours will be calculated as 8hrs/80kms package).
         </p>
+      </div>
+      <div className='pagination_button'>
+      <Link to='/homePage'>
+    <button class="custom-btn btn-12"><span>Click!</span><span>Home Page</span></button>
+      </Link>
       </div>
     </section>
   );

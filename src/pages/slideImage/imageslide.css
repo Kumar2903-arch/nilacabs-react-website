@@ -1,4 +1,162 @@
 .color_change {
     color: coral;
+    font-size: 4rem;
     font-weight: bold;
+}
+
+.page_down{
+    margin-top: 7rem;
+}
+
+.img_height{
+    height: 80vh;
+}
+
+.content_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.background-container_1 {
+    position: relative;
+    padding: 1rem;
+    background-image: url('../images/Emp-Suv-Car.jpg'); /* Update the path to your image */
+    background-size: cover;
+    background-position: center;
+    /* height: 80vh; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    color: white; /* Ensure content text is readable over the background */
+    text-align: center;
+  }
+
+  /* .background-container_2 {
+    position: relative;
+    padding: 1rem;
+    background-image: url('../images/Eicher-bus.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white; 
+    text-align: center;
+  } */
+
+  /* .background-container_3 {
+    position: relative;
+    padding: 1rem;
+    background-image: url('../images/Mahindra-Marazzo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white; 
+    text-align: center;
+  } */
+
+
+  .content_1 {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30rem;
+    cursor: pointer;
+  }
+
+  .content_2 {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 15rem;
+  }
+  
+  .img_fix_1{
+    width: 7%;
+    position: absolute;
+    right: 14rem;
+    bottom: 11.5rem;
+  }
+
+  .img_fix_2{
+    width: 8%;
+    position: absolute;
+    right: 41rem;
+    bottom: 27rem;
+    opacity: 0.6;
+}
+
+  .img_fix_3{
+    width: 12%;
+    position: absolute;
+    left: 21rem;
+    bottom: 15rem;
+    opacity: 0.7;
+  }
+
+  .img_fix_4{
+    width: 7%;
+    position: absolute;
+    right: 28rem;
+    bottom: 17.5rem;
+  }
+
+  .img_fix_5{
+    width: 8%;
+    position: absolute;
+    left: 31rem;
+    bottom: 29.5rem;
+    opacity: 0.8;
+}
+
+  .img_fix_6{
+    width: 12%;
+    position: absolute;
+    left: 21rem;
+    bottom: 15rem;
+    opacity: 0.8;
+  }
+
+  .img_fix_7{
+    width: 7%;
+    position: absolute;
+    right: 28rem;
+    bottom: 17.5rem;
+  }
+
+  .img_fix_8{
+    width: 8%;
+    position: absolute;
+    left: 31rem;
+    bottom: 29.5rem;
+    opacity: 0.8;
+}
+
+  .img_fix_9{
+    width: 12%;
+    position: absolute;
+    left: 21rem;
+    bottom: 15rem;
+    opacity: 0.8;
+  }
+
+
+/* Mobile Media Query */
+
+@media screen and (max-width: 767.98px) {
+    .color_change {
+        font-size: 2rem;
+    }
+    .f_size {
+        font-size: 1rem;
+    }
 }

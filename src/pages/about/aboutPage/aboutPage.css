@@ -1,0 +1,45 @@
+/* BackgroundLayout.css */
+.background-container {
+    position: relative;
+    padding: 1rem;
+    background-image: url('../img/Emp-Suv-Car.jpg'); /* Update the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    color: white; /* Ensure content text is readable over the background */
+    text-align: center;
+  }
+  
+  .content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background to improve readability */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 12rem;
+  }
+  
+  .img_fix_1{
+    width: 7%;
+    position: absolute;
+    right: 14rem;
+    bottom: 8rem;
+  }
+
+  .img_fix_2{
+    width: 8%;
+    position: absolute;
+    right: 42.2rem;
+    bottom: 23.8rem;
+    opacity: 0.6;
+}
+
+  .img_fix_3{
+    width: 12%;
+    position: absolute;
+    left: 21rem;
+    bottom: 11rem;
+    opacity: 0.7;
+  }

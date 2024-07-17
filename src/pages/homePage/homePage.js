@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 import NavDropdownHover from "./navbardropdown";
 import "./homePage.css";
 
-function App() {
+function HomePage() {
   return (
     <>
        <Navbar expand="lg"  className="fs-5 p-2" id="bg_color">
@@ -37,7 +37,7 @@ function App() {
               </Link>
             </NavDropdown.Item>
           </NavDropdownHover>
-          <Nav.Link href="#OurServiceOne">Services</Nav.Link>
+          <Link to="/services/servicepage" className="nav_link">Services</Link>
           <Nav.Link href="#client">Clients</Nav.Link>
           <Nav.Link href="#contact">Contact Us</Nav.Link>
           <NavDropdownHover title="Gallery" id="navbarScrollingDropdown">
@@ -60,4 +60,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;

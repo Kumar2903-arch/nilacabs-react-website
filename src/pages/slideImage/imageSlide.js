@@ -1,50 +1,33 @@
-import React from 'react'; 
-import 'bootstrap/dist/css/bootstrap.css'; 
-import Carousel from 'react-bootstrap/Carousel'; 
-import Car from '../images/car.jpg';
-import Bus from '../images/bus1.avif'; // Done
-import './imageslide.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import Carousel from "react-bootstrap/Carousel";
+import OffLogoOne from "../images/OFFICE LOGO-Recreate_withoutbackground.png";
+import OffLogoTwo from "../images/OFFICE LOGO-Recreate_withoutbackground.png";
+import OffLogoThree from "../images/OFFICE LOGO-Recreate_withoutbackground.png"; // Done
+import "./imageslide.css";
 
-export default function Slide() { 
-return ( 
-	<div id='home'> 
-	<Carousel> 
-		<Carousel.Item interval={2000}>
-		<img className="w-100 opacity-75" src={Bus} alt='one'/>
-		<Carousel.Caption className='d-flex flex-column top-50'> 
-			<h3 className='fs-1 fw-bold fs-xs-1 color_change'><span className='h-50 fst-italic'>W</span>elcome to Corporate Cab Services</h3> 
-            <span className='fs-3'>Where Business Meets Comfort and Reliability,</span> 
-			<span className='fs-3'>Ensuring a Secure Commute for every passenger</span> 
-		</Carousel.Caption> 
-		</Carousel.Item> 
-		<Carousel.Item interval={2000}> 
-		<img className="w-100 img_height" src={Car} alt='two'/>
-		<Carousel.Caption className='d-flex flex-column top-51'> 
-			<h3 className='color_change'>Navigate your way to success with <span>Nila Cabs</span>, One Ride at a Time</h3> 
-		</Carousel.Caption> 
-		</Carousel.Item> 
-        <Carousel.Item interval={2000}> 
-		<img className="w-100 h75" src={Bus} alt='one'/>
-		<Carousel.Caption> 
-			{/* <h3>Label for first slide</h3> 
-			<p>Sample Text for Image One</p>  */}
-		</Carousel.Caption> 
-		</Carousel.Item> 
-        <Carousel.Item interval={2000}> 
-		<img className="w-100 h75" src={Car} alt='one'/>
-		<Carousel.Caption> 
-			{/* <h3>Label for first slide</h3> 
-			<p>Sample Text for Image One</p>  */}
-		</Carousel.Caption> 
-		</Carousel.Item>
-        <Carousel.Item interval={2000}> 
-		<img className="w-100 h75" src={Bus} alt='one'/>
-		<Carousel.Caption> 
-			{/* <h3>Label for first slide</h3> 
-			<p>Sample Text for Image One</p>  */}
-		</Carousel.Caption> 
-		</Carousel.Item>  
-	</Carousel> 
-	</div> 
-); 
+export default function Slide() {
+  return (
+    <div id="home">
+      <Carousel className="page_down">
+        <Carousel.Item>
+          <div className="background-container_1">
+            <img src={OffLogoOne} alt="Logo" className="img_fix_1" />
+            <img src={OffLogoTwo} alt="Logo" className="img_fix_2" />
+            <img src={OffLogoThree} alt="Logo" className="img_fix_3" />
+            <div className="content_1">
+              <h1
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              >
+                Smart Commute Cab Services
+              </h1>
+            </div>
+          </div>
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  );
 }
